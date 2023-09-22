@@ -54,6 +54,7 @@
   height: 3rem;
   margin-bottom: 1rem;
   border: none;
+  align-items: center;
 }
 
 .formulario label {
@@ -83,6 +84,7 @@
   height: 30px;
   border-radius: 5px;
   color: #fff;
+  border: none;
 }
 
 .button2 {
@@ -93,6 +95,11 @@
   border-radius: 5px;
   color: #fff;
   margin-left: 1rem;
+  border: none;
+}
+
+.button1, .button2, #lostPass, .media, hover{
+  cursor: pointer;
 }
 
 .image {
@@ -106,6 +113,7 @@
 
 .buttons {
   display: inline-block;
+  margin-top: 1rem;
 }
 
 #grass {
@@ -116,5 +124,31 @@
   height: 200px;
   margin-top: 10rem;
 }
+
+#socialMedia {
+  margin-top: 2rem;
+}
+
+.media {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+#instagram {
+  background-image: url("../images/instagram.svg");
+  background-size: 100%;
+}
+
+#facebook {
+  background-image: url("../images/facebook.svg");
+  background-size: 100%;
+} 
+
+#linkedin {
+  background-image: url("../images/linkedin.svg");
+  background-size: 100%;
+} 
 
 
