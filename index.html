@@ -7,10 +7,11 @@
     <title>Ínicio</title>
     <link rel="stylesheet" href="../resources/styles/style.css">
 </head>
-    <h1></h1>
+<h1></h1>
+
 <body>
     <section id="container">
-        <section class="image">
+        <section class="imagePlant">
             <img src="resources/images/florFundo.svg" alt="Imagem ilustrativa de uma planta">
         </section>
         <section class="formularioLogin">
@@ -19,27 +20,42 @@
                     <h1>ALLTOMATIC</h1>
                 </div>
                 <div class="formulario">
-                    <img src="../resources/images/logo_Alltomatic.svg" alt="Logo da empresa alltomatic">
+                    <img class="imageLogo" src="../resources/images/logo_Alltomatic.svg" alt="Logo da empresa alltomatic">
                     <form>
                         <label for="login">Login:</label>
                         <input type="text" id="login" placeholder="nome de usuário ou email">
                         <label for="password">Senha:</label>
                         <input type="password" id="password" placeholder="digite sua senha">
-                        <button id="lostPass">Esqueci minha senha</button>
-                        <div class="buttons">
+                        <span>Esqueci minha senha</span>
+                        <div class="buttonsForm">
                             <button type="submit" class="button1">ENTRAR</button>
                             <button class="button2">CADASTRAR-SE</button>
                         </div>
                     </form>
                     <div id="socialMedia">
-                        <button class="media" id="instagram"></button>
-                        <button class="media" id="facebook"></button>
-                        <button class="media" id="linkedin"></button>
+                        <div class="media" id="instagram">
+                            <a href="/">
+                                <img src="resources/images/instagram.svg" alt="logo instagram">
+                            </a>
+                        </div>
+                        <div class="media" id="facebook">
+                            <a href="/">
+                                <img src="resources/images/facebook.svg" alt="logo Facebook">
+                            </a>
+                        </div>
+                        <div class="media" id="linkedin">
+                            <a href="/">
+                                <img src="resources/images/linkedin.svg" alt="logo linkedin">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </section>
-    <div id="grass"></div>
+    <div id="grass">
+        <img src="resources/images/mato.svg" alt="mato">
+    </div>
 </body>
+
 </html>
