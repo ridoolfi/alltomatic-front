@@ -19,18 +19,36 @@
 #container {
   width: 100vw;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
 }
+.imagePlant {
+  width: 100%;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  width: 70%;
+}
+.imagePlant img {
+  width: 100%;
+}
 
-.container-formulario {
+.formularioLogin {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1440px;
+  height: 100vh;
+}
+
+.container-formulario {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo{
+  margin-top: 20px;
   color: #fff;
   font-family: var(--fonteTitulos);
   font-size: 50px;
@@ -40,115 +58,104 @@
 .formulario {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.formulario form {
+.imageLogo {
+  margin-top: 130px;
+}
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 50%;
 }
-
-.formulario input {
-  border-radius: 5px;
-  height: 3rem;
-  margin-bottom: 1rem;
-  border: none;
-  align-items: center;
-}
-
-.formulario label {
+form span {
   color: #fff;
-  font-size: 31px;
+  font-size: 0.8rem;
+  margin-top: 2px;
   font-family: var(--fonteGeral);
-}
-
-.formulario img {
-  width: 5rem;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
-}
-
-#lostPass {
-  font-family: var(--fonteGeral);
-  background: none;
-  border: none;
   text-decoration: underline;
-  color: var(--primeiroVerde);
+}
+label {
+color: #FFF;
+font-family: var(--fonteGeral);
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 10px;
+}
+input {
+border-radius: 5px;
+background: #F5F5F5;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+padding: 13px 10px;
+border: none;
 }
 
-.button1 {
-  font-family: var(--fonteGeral);
-  background-color: var(--terceiroVerde);
-  width: 120px;
-  height: 30px;
-  border-radius: 5px;
-  color: #fff;
-  border: none;
-}
-
-.button2 {
-  font-family: var(--fonteGeral);
-  background-color: var(--primeiroVerde);
-  width: 120px;
-  height: 30px;
-  border-radius: 5px;
-  color: #fff;
-  margin-left: 1rem;
-  border: none;
-}
-
-.button1, .button2, #lostPass, .media, hover{
-  cursor: pointer;
-}
-
-.image {
+.buttonsForm {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 600px;
-  width: 600px;
+  justify-content: space-evenly;
+  margin-top: 20px
 }
-
-.buttons {
-  display: inline-block;
-  margin-top: 1rem;
+.buttonsForm .button1 {
+border-radius: 5px;
+background: var(--terceiroVerde);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+padding: 10px 20px;
+color: #FFF;
+font-family: var(--fonteGeral);
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+opacity: .8;
+}
+.buttonsForm .button2 {
+  border-radius: 5px;
+  background: var(--primeiroVerde);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  padding: 10px 20px;
+  color: #FFF;
+  font-family: var(--fonteGeral);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  opacity: .8;
+  }
+.buttonsForm .button1:hover {
+  opacity: 1;
+}
+.buttonsForm .button2:hover {
+  opacity: 1;
+}
+#socialMedia {
+  margin-top: 40px;
+  width: 50%;
+  height: auto;
+  display: flex;
+ justify-content: center;
+  gap: 10px;
+}
+.media {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.media a {
+  display: flex;
+  justify-content: center;
 }
 
 #grass {
-  align-items: center;
-  justify-content: end;
-  background-image: url("../images/mato.svg");
-  width: auto;
-  height: 200px;
-  margin-top: 10rem;
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
 }
-
-#socialMedia {
-  margin-top: 2rem;
-}
-
-.media {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-}
-
-#instagram {
-  background-image: url("../images/instagram.svg");
-  background-size: 100%;
-}
-
-#facebook {
-  background-image: url("../images/facebook.svg");
-  background-size: 100%;
-} 
-
-#linkedin {
-  background-image: url("../images/linkedin.svg");
-  background-size: 100%;
-} 
-
-
