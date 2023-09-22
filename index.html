@@ -11,7 +11,7 @@
 <body>
     <section id="container">
         <section class="image">
-            <img src="resources/styles/index.css" alt="Imagem ilustrativa de uma planta">
+            <img src="resources/images/florFundo.svg" alt="Imagem ilustrativa de uma planta">
         </section>
         <section class="formularioLogin">
             <div class="container-formulario">
@@ -22,17 +22,24 @@
                     <img src="../resources/images/logo_Alltomatic.svg" alt="Logo da empresa alltomatic">
                     <form>
                         <label for="login">Login:</label>
-                        <input type="text" id="login">
+                        <input type="text" id="login" placeholder="nome de usuário ou email">
                         <label for="password">Senha:</label>
-                        <input type="password" id="password">
-                        <button type="submit">ENTRAR</button>
-                        <button></button>
-                        <button></button>
+                        <input type="password" id="password" placeholder="digite sua senha">
+                        <button id="lostPass">Esqueci minha senha</button>
+                        <div class="buttons">
+                            <button type="submit" class="button1">ENTRAR</button>
+                            <button class="button2">CADASTRAR-SE</button>
+                        </div>
                     </form>
+                    <div id="socialMedia">
+                        <button id="instagram"></button>
+                        <button id="facebook"></button>
+                        <button id="linkedin"></button>
+                    </div>
                 </div>
             </div>
         </section>
     </section>
+    <div id="grass"></div>
 </body>
-
 </html>

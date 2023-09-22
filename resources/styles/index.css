@@ -19,17 +19,102 @@
 #container {
   width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
 .container-formulario {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 1440px;
 }
+
+.titulo{
+  color: #fff;
+  font-family: var(--fonteTitulos);
+  font-size: 50px;
+  text-decoration: underline;
+}
+
 .formulario {
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  
+  justify-content: center;
+  align-items: center;
 }
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario input {
+  border-radius: 5px;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.formulario label {
+  color: #fff;
+  font-size: 31px;
+  font-family: var(--fonteGeral);
+}
+
+.formulario img {
+  width: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+#lostPass {
+  font-family: var(--fonteGeral);
+  background: none;
+  border: none;
+  text-decoration: underline;
+  color: var(--primeiroVerde);
+}
+
+.button1 {
+  font-family: var(--fonteGeral);
+  background-color: var(--terceiroVerde);
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button2 {
+  font-family: var(--fonteGeral);
+  background-color: var(--primeiroVerde);
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+}
+
+.buttons {
+  display: inline-block;
+}
+
+#grass {
+  align-items: center;
+  justify-content: end;
+  background-image: url("../images/mato.svg");
+  width: auto;
+  height: 200px;
+  margin-top: 10rem;
+}
+
+
