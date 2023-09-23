@@ -3,6 +3,7 @@
 
 @import 'login.css';
 @import 'cadastro.css';
+@import 'minhasPlantas.css';
 
 * {
   margin: 0;
