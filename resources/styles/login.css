@@ -69,12 +69,13 @@ form {
   flex-direction: column;
   width: 50%;
 }
-form span {
+form a {
   color: #fff;
   font-size: 0.8rem;
   margin-top: 2px;
   font-family: var(--fonteGeral);
   text-decoration: underline;
+  cursor: pointer;
 }
 label {
 color: #FFF;
@@ -136,24 +137,29 @@ opacity: .8;
   opacity: 1;
 }
 #socialMedia {
-  margin-top: 40px;
+  margin-top: 6.25rem;
   width: 50%;
-  height: auto;
   display: flex;
- justify-content: center;
+  justify-content: center;
   gap: 10px;
 }
 .media {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 10px;
+  background-color: white;
 }
 .media a {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
-
+.media a img {
+  width: 85%;
+}
 #grass {
   position: relative;
 }
