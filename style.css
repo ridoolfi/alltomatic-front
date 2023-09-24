@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&display=swap');
 
-@import 'login.css';
-@import 'cadastro.css';
-@import 'minhasPlantas.css';
+@import './resources/styles/login.css';
+@import './resources/styles/minhasPlantas.css';
+@import './resources/styles/cadastro.css';
 
 * {
   margin: 0;
