@@ -159,3 +159,52 @@
   gap: 10px;
   margin-bottom: 20px;
 }
+
+#container-plantas {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#container-plantas div:hover {
+  background-color: var(--segundoVerde);
+  border: 2px solid #fff;
+}
+
+.visualPlantas {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primeiroVerde);
+  margin-top: 3rem;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 350px;
+  height: 300px;
+}
+
+#container-plantas a {
+  width: 450px;
+  height: 450px;
+}
+
+.visualPlantas img {
+  height: 200px; 
+}
+
+.visualPlantas p {
+  font-family: var(--fonteGeral);
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+.visual {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--fonteGeral);
+  color: #fff;
+  font-weight: 700;
+}
