@@ -4,6 +4,7 @@
 @import './resources/styles/login.css';
 @import './resources/styles/minhasPlantas.css';
 @import './resources/styles/cadastro.css';
+@import './resources/styles/temporeal.css';
 
 * {
   margin: 0;
