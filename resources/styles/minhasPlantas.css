@@ -32,7 +32,7 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background-image: url(/resources/images/imgUser.png);
+  background-image: url(../images/imgUser.png);
   background-repeat: no-repeat;
   background-position: center;
 }
