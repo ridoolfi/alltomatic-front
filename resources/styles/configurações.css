@@ -39,7 +39,7 @@ body{
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background-image: url('resources/imgUser.png');
+  background-image: url("../images/imgUser.png");
   background-repeat: no-repeat;
   background-position: center;
 }
