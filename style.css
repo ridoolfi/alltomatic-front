@@ -5,6 +5,7 @@
 @import './resources/styles/minhasPlantas.css';
 @import './resources/styles/cadastro.css';
 @import './resources/styles/temporeal.css';
+@import './resources/styles/meuprogresso.css';
 
 * {
   margin: 0;
